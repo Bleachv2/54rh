@@ -1,0 +1,20 @@
+const Discord = require (`discord.js`)
+const.   client = new Discord.Client();
+
+
+
+
+var prefix = "=" 
+
+
+client. login("OTk3MjU1NjQ5NDY3NTY0MDcy.GI7vhH.mDpmgEaXrQi9o8PvM0wgNBnflHN4HG4oECiY_4") 
+
+client.("ready", () =>{
+     console.log("je suis prêt") 
+     client.user.setGame("Go to the space")
+});
+
+ client.on('message' message => {
+ 
+ 
+})
